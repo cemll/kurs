@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="az">
+  <head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title> Sağlamlıq Xidməti</title>
+  </head>
+  <body>
+    <header>
+      <nav class="section__container nav__container">
+        <div class="nav__logo">Sağlamlıq<span>Xidməti</span></div>
+        <ul class="nav__links">
+          <li class="link"><a href="#">Əsas</a></li>
+          <li class="link"><a href="#">Haqqımızda</a></li>
+          <li class="link"><a href="#">Xidmətlər</a></li>
+          <li class="link"><a href="#">Səhifələr</a></li>
+          <li class="link"><a href="#">Blog</a></li>
+        </ul>
+        <button class="btn">Bizimlə Əlaqə</button>
+      </nav>
+      <div class="section__container header__container">
+        <div class="header__content">
+          <h1>Daha rahat şəraitdə
+            sağlamlıq xidməti təklif edirik.
+            </h1>
+          <p>
+            Keyfiyyətli tibbi xidmət alarkən eyni zamanda rahatlığınızın da təmin olunması üçün çalışırıq.
+
+          </p>
+          <button class="btn">Xidmətləri Göstər</button>
+        </div>
+        <div class="header__form">
+          <form id="appointmentForm">
+            <h4>Randevu Əldə edin</h4>
+            <input type="text" placeholder="Ad" />
+            <input type="text" placeholder="Soyad" />
+            <input type="text" placeholder="Ünvan" />
+            <input type="text" placeholder="Telefon nömrəsi" />
+            <button class="btn form__btn" type="submit">Randevu Almaq</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <script>
+      document.getElementById('appointmentForm').addEventListener('submit', function(event) {
+        event.preventDefault(); 
+        
+        alert("Randevunuz əlavə olundu");
+      });
+    </script>
+
+    <section class="section__container service__container">
+      <div class="service__header">
+        <div class="service__header__content">
+          <h2 class="section__header">Bizim Xüsusi Xidmətlərimiz</h2>
+          <p>
+           Lorem ipsum dolor sit amet, 
+           consectetur adipisicing elit. Deserunt temporibus sit ipsum perferendis eos mollitia
+            aperiam ea quidem dolore aspernatur?
+          </p>
+        </div>
+        <button class="service__btn">Xidmət Soruş</button>
+      </div>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-microscope-line"></i></span>
+          <h4>Laboratoriya Testi</h4>
+          <p>
+            Dəqiq Diaqnostika, Tez Nəticələr: Bizim obyektiv laboratoriya
+            Testlər ilə tanış olun.
+          </p>
+          <a href="#">Daha Çox Məlumat</a>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-mental-health-line"></i></span>
+          <h4>Sağlamlıq Yoxlama</h4>
+          <p>
+            Ətraflı qiymətləndirmələr və ekspert qiymətləndirmələrimiz 
+            sizin sağlamlığınız barədə proaktiv olmağa kömək edir.
+          </p>
+          <a href="#">Daha Çox Məlumat</a>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-hospital-line"></i></span>
+          <h4>Ümumi Xidmətlər</h4>
+          <p>
+            Xəstəliklərə qarşı gəlmək üçün öncədən müayinə
+          </p>
+          <a href="#">Daha Çox Məlumat</a>
+        </div>
+      </div>
+    </section>
+    <section class="section__container about__container">
+      <div class="about__content">
+        <h2 class="section__header">Haqqımızda</h2>
+        <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Officiis modi laborum aut sapiente sint vitae? Sapiente quasi labore minima magnam.
+        </p>
+        <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+      Aliquid, eius. Nulla, hic incidunt! Numquam pariatur recusandae dolore, maiores odit 
+      quidem est laborum in quos ad inventore quas fuga assumenda obcaecati?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cum eaque, velit expedita amet asperiores porro ab! 
+          Ad, repellat temporibus quibusdam est veniam illum eveniet laborum? Officiis repellendus consequuntur numquam, 
+          similique saepe nulla! Eos cumque dicta earum, voluptatem harum cum, odit, dignissimos fugiat ea temporibus deserunt unde 
+          totam qui saepe?
+        </p>
+      </div>
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="haqqında" />
+      </div>
+    </section>
+
+    <section class="section__container why__container">
+      <div class="why__image">
+        <img src="assets/choose-us.jpg" alt="nə üçün bizi seçməlisiniz" />
+      </div>
+      <div class="why__content">
+        <h2 class="section__header">Niyə Bizi Seçməlisiniz</h2>
+        <p>
+          Sağlamlığınızı yaxşı əllərə əmanət etmək, yüksək təlimli sağlamlıq
+          xidməti ,professiyonal komandası, sizə nəzərdə tutulmuş yaxşı
+          xidmətləri özündə gətirir.
+        </p>
+        <div class="why__grid">
+          <span><i class="ri-hand-heart-line"></i></span>
+          <div>
+            <h4>İntensiv Təcili Tibb</h4>
+            <p>
+              İntensiv Təcili Tibb üçün təchiz olunmuş texnologiyalara sahibdir.
+            </p>
+          </div>
+          <span><i class="ri-truck-line"></i></span>
+          <div>
+            <h4>Pulsuz Nəqliyyat Xidməti</h4>
+            <p>
+              Sizin sağlamlığınızı və xoşbəxtliyiniz üçün nəzərdə tutulmuş xidmət.
+            </p>
+          </div>
+          <span><i class="ri-hospital-line"></i></span>
+          <div>
+            <h4>Tibbi və Cərrahi</h4>
+            <p>
+              Tibbi və Cərrahi xidmətlərimiz, tibbi ehtiyacları aradan qaldırmaq
+              üçün müasir sağlamlıq həllərini təklif edir.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container doctors__container">
+      <div class="doctors__header">
+        <div class="doctors__header__content">
+          <h2 class="section__header">Bizim Xüsusi Həkimlərimiz</h2>
+          <p>
+            Hər biri öz sahələrində ixtisaslaşmış həkim komandamız
+           
+          </p>
+        </div>
+        <div class="doctors__nav">
+          <span><i class="ri-arrow-left-line"></i></span>
+          <span><i class="ri-arrow-right-line"></i></span>
+        </div>
+      </div>
+      <div class="doctors__grid">
+        <div class="doctors__card">
+          <div class="doctors__card__image">
+            <img src="assets/doctor-1.jpg" alt="həkim" />
+            <div class="doctors__socials">
+              <span><i class="ri-instagram-line"></i></span>
+              <span><i class="ri-facebook-fill"></i></span>
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-twitter-fill"></i></span>
+            </div>
+          </div>
+          <h4>Dr. Aytən Əliyev</h4>
+          <p>Kardioloq</p>
+        </div>
+        <div class="doctors__card">
+          <div class="doctors__card__image">
+            <img src="assets/doctor-2.jpg" alt="həkim" />
+            <div class="doctors__socials">
+              <span><i class="ri-instagram-line"></i></span>
+              <span><i class="ri-facebook-fill"></i></span>
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-twitter-fill"></i></span>
+            </div>
+          </div>
+          <h4>Dr. Amil Abbaslı</h4>
+          <p>Psixiatr</p>
+        </div>
+        <div class="doctors__card">
+          <div class="doctors__card__image">
+            <img src="assets/doctor-3.jpg" alt="həkim" />
+            <div class="doctors__socials">
+              <span><i class="ri-instagram-line"></i></span>
+              <span><i class="ri-facebook-fill"></i></span>
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-twitter-fill"></i></span>
+            </div>
+          </div>
+          <h4>Dr. Elvin Həsənli</h4>
+          <p>Dermatoloq</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h2 class="section__header">Ünvan</h2>
+    <iframe class="location" width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19485.62581335265!2d49.85648362151782!3d40.39221429946806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d648235071b%3A0x37dd09854e15a266!2sBaku%20Health%20Center!5e0!3m2!1sen!2saz!4v1714478863032!5m2!1sen!2saz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>  
+  </section>
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>Sağlamlıq<span>Xidməti</span></h3>
+          <p>
+            Sağlamlıq səyahətinizə qoşuluruq və hər addımda
+            ən yaxşı sağlamlıq üçün mükafatlandırıcı xidmət təmin edirik.
+          </p>
+          <p>
+            Bizimlə sağlamlığınızı etibarlı şəkildə bərpa et və ən yaxşı
+            nəticələrə nail olmaq üçün birlikdə işləyək.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Haqqımızda</h4>
+          <p>Əsas</p>
+          <p>Haqqımızda</p>
+          <p>Bizimlə İşləyin</p>
+          <p>Bizim Blogumuz</p>
+          <p>Şərtlər</p>
+        </div>
+        <div class="footer__col">
+          <h4>Xidmətlər</h4>
+          <p>Axtarış Termləri</p>
+          <p>Ətraflı Axtarış</p>
+          <p>Gizlilik Siyasəti</p>
+          <p>Təchizatçılar</p>
+          <p>Mağazalarımız</p>
+        </div>
+        <div class="footer__col">
+          <h4>Bizimlə Əlaqə</h4>
+          <p>
+            <i class="ri-map-pin-2-fill"></i> Nizami rayonu,Hüseyn zərdabi küç
+          </p>
+          <p><i class="ri-mail-fill"></i> support@care.com</p>
+          <p><i class="ri-phone-fill"></i> (+994)555555555</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        <div class="footer__bar__content">
+          <div class="footer__socials">
+            <span><i class="ri-instagram-line"></i></span>
+            <span><i class="ri-facebook-fill"></i></span>
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-twitter-fill"></i></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </body>
+</html>
